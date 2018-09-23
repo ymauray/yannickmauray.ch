@@ -32,7 +32,7 @@ body {
 #photo {
     height: 20rem;
     width: 100%;
-    background-image: url(foto-sushi-128246-unsplash.jpg);
+    background-image: url(foto-sushi-128246-unsplash-w550.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -41,12 +41,14 @@ body {
 @media screen and (min-width: 544px) {
     #photo {
         height: 36rem;
+        background-image: url(foto-sushi-128246-unsplash-w1000.jpg);
     }
 }
 
 @media screen and (min-width: 992px) {
     #photo {
         width: 33%;
+        background-image: url(foto-sushi-128246-unsplash-h360.jpg);
     }
 }
 
